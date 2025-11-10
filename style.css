@@ -1,0 +1,419 @@
+/*RESET*/
+.hero h1, .hero h2, h1, h2, h3, h4, p, body, img, figure{margin: 0;}
+a{color: inherit;}
+*{box-sizing:border-box;}
+
+/*GERAL*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    font-size: 17px;}
+
+/*MENU*/
+.header{
+    background-color: #f6f2e7;
+    color: #004337;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;}
+
+.top-site{
+    display: flex;
+    justify-content: space-between;}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;}
+
+.menu a{margin-left: 25px;}
+
+.simbolo{
+    width: auto;
+    height: 75px;}
+
+.linha{
+    width: 3px;
+    height: 75px;
+    background-color: #004337;
+    margin: 0px 15px;}
+
+.título{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;}
+
+/*HERO*/
+.hero{
+    background-image: url(../images/fundo_capa.jpg);
+    background-size: cover;
+    background-position: top center;
+    color: #f6f2e7;
+    padding: 40px 60px;}
+
+.hero h1, .hero h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #f6f2e7;}
+
+.hero h1{
+    font-size: 55px;
+    margin-top: 40px;}
+
+.hero h2{font-size: 30px;}
+
+.hero h3{
+    font-size: 24px;
+    margin: 30px 0 5px 0;
+    color: #f6f2e7;}
+
+.hero h4{
+    font-size: 15px;
+    font-weight: normal;}
+
+.botão{
+    background-color: #d6ce4b;
+    color: #004337;
+    border: none;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 10px 35px;
+    margin-top: 200px;}
+
+/*SOBRE O EVENTO*/
+h1{
+    color: #004337;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: uppercase;}
+
+.sobre p{
+    color: #004337;
+    margin-top: 10px;
+    padding: 15px 0;
+    line-height: 1.4;}
+
+.sobre{
+    display: flex;
+    margin: 50px 75px;}
+
+.texto{
+    width: 70%;
+    margin-right: 80px;}
+
+.imagem{width: 30%;}
+
+.imagem img{width: 100%;}
+
+/*DATA E LOCAL*/
+
+.datalocal{
+    background-color: #f6f2e7;
+    display: flex;}
+
+.ladoesquerdo{
+    width: 50%;
+    padding: 60px;}
+
+.ladodireito{padding: 60px;}
+
+.ladoesquerdo img{
+    width: 100%;
+    margin-top: 20px;}
+
+h2{
+    font-size: 24px;
+    color: #004337;
+    text-transform: uppercase;
+    margin-top: 20px;}
+
+h3{
+    font-weight: bold;
+    color: #004337;
+    font-size: 17px;
+    margin-top: 15px;}
+
+.datalocal p{
+    color: #004337;
+    line-height: 1.4;
+    margin-top: 2px;}
+
+/*PROGRAMA*/
+
+.programa{
+    background-color: #004337;
+    padding: 60px 20px;}
+
+.dias{
+    display: flex;
+    justify-content: center;
+    gap: 40px;}
+
+.programa h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #f6f2e7;}
+
+.programa h2{
+    color: #f6f2e7;
+    text-align: center;
+    margin-bottom: 13px;}
+
+.dia{
+    background-color: #f6f2e7;
+    color: #004337;
+    height: 380px;
+    width: 370px;
+    padding: 20px;}
+
+.dia p{
+    margin-bottom: 10px;
+    line-height: 1.4;}
+
+/*ORGANIZAÇÃO*/
+
+.organização{
+    background-color: #fafafa;}
+
+.organização h1{
+    text-align: center;
+    padding: 60px 0 20px 0;}
+
+.pessoascima{display: flex;}
+
+.pessoasbaixo{display: flex;}
+
+.pessoa img{
+    width: 100%;
+    max-width: 200px;
+    text-align: center;}
+
+.pessoa p{
+    color: #004337;
+    line-height: 1.4;
+    margin-top: 15px;}
+
+.pessoa{
+    width: 50%;
+    padding: 25px;
+    text-align: center;}
+
+/*INSCRIÇÕES*/
+
+.inscrições{
+    background-color: #004337;
+    margin: 50px;}
+
+.retângulo{padding: 35px 50px;}
+
+.inscrições h1{
+    color: #f6f2e7;
+    margin-bottom: 8px;}
+
+.inscrições h4{
+    color: #f6f2e7;
+    font-weight: normal;
+    font-size: 17px;
+    margin-bottom: 3px;}
+
+.inscrições p{
+    color: #f6f2e7;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 15px;}
+
+.dados{
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    background-color: #f6f2e7;
+    color: #004337;
+    border: none;
+    border-radius: 15px;}
+
+::placeholder{
+    color: #004337;
+    font-size: 15px;}
+
+.botão_inscrição{
+    background-color: #d6ce4b;
+    color: #004337;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;}
+
+.formulário{text-align: right;}
+
+/*RODAPÉ*/
+
+.rodapé{background-color: #f6f2e7;}
+
+.rodapé2{
+    display: flex;
+    padding: 70px 50px 30px 50px;}
+
+.images{width: 33%;}
+
+.logo img{
+    width: 75%;
+    margin-bottom: 10px;}
+
+.redes{
+    display: flex;
+    width: 60%;}
+
+.facebook, .instagram, .tiktok{
+    width: 35%;}
+
+.condições, .informações{
+    width: 33%;
+    margin-left: 50px;}
+
+.rodapé h3{
+    font-size: 20px;
+    margin-bottom: 7px;}
+
+.rodapé p{
+    color: #004337;
+    font-size: 15px;
+    margin-bottom: 5px;
+    line-height: 1.4;}
+
+footer{
+    color: #004337;
+    text-align: center;
+    font-size: 11px;
+    padding: 0 0 50px 0;}
+
+
+/*Definição de media queries*/
+
+@media all and (max-width: 768px) {
+
+  /*GERAL*/
+  body {font-size: 15px;}
+
+  /*HEADER*/
+  .header {flex-direction: column;}
+
+  .simbolo {height: 50px;}
+
+  .linha {height: 50px;}
+
+  .título {font-size: 20px;}
+
+  .menu {
+    gap: 15px;
+    font-size: 13px;
+    margin-top: 10px;}
+
+  .menu a {margin: 0;}
+
+  /*HERO*/
+
+  .hero {height: auto;}
+
+  .hero h1 {
+    margin-top: 15px;
+    font-size: 32px;
+    margin-bottom: 3px;}
+
+  .hero h2 {
+    font-size: 22px;
+    margin-bottom: 30px;}
+
+  .hero h3 {
+    font-size: 17px;
+    margin-bottom: 3px;}
+
+  .hero h4 {font-size: 13px;}
+
+  .botão {
+    font-size: 22px;
+    padding: 7px 18px;
+    margin-top: 50px;}
+
+  /*SOBRE*/
+  .sobre {
+    flex-direction: column;
+    margin: 30px 30px;}
+
+  h1{font-size: 32px;}
+  
+  .texto, .imagem {
+    width: 100%;
+    margin: 0;}
+
+  .imagem img {
+    margin-top: 30px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;}
+
+  /*DATA E LOCAL*/
+  .datalocal {
+    flex-direction: column;
+    padding: 20px 40px;}
+
+  .ladoesquerdo, .ladodireito {
+    width: 100%;
+    padding: 5px 0;}
+
+  h2{font-size: 22px;}
+
+  /*PROGRAMA*/
+  .dias {
+    flex-direction: column;
+    gap: 10px;}
+
+  .dia {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto;}
+
+  /*ORGANIZAÇÃO*/
+  .pessoascima, .pessoasbaixo {flex-direction: column;}
+
+  .pessoa {
+    width: 100%;
+    padding: 20px;}
+
+  /*INSCRIÇÕES*/
+  .inscrições {
+    margin: 35px;}
+
+  .retângulo {padding: 25px;}
+
+  /*RODAPÉ*/
+  .rodapé2 {
+    flex-direction: column;
+    padding: 30px 15px;}
+
+  .images, .condições, .informações {
+    width: 100%;
+    margin-bottom: 15px;}
+
+  .logo{
+    width: 50%;
+    margin-left: 50px;}
+
+  .redes {
+    width: 40%;
+    margin-left: 50px;}
+
+  .facebook, .instagram, .tiktok {
+    width: 30%;
+    margin: 0 5px;}
+}
